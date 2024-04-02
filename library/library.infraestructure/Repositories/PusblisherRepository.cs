@@ -10,7 +10,7 @@ namespace library.Infrastructure.Repositories
 {
     public class PublisherRepository : BaseRepository<Publisher>, IPublisherRepository
     {
-        private new readonly LibraryContext _context;
+        private readonly LibraryContext _context;
         private readonly ILogger<PublisherRepository> _logger;
 
         public PublisherRepository(LibraryContext context, ILogger<PublisherRepository> logger) : base(context)
@@ -19,24 +19,45 @@ namespace library.Infrastructure.Repositories
             _logger = logger;
         }
 
+        // Métodos adicionales si es necesario
+
         public override void Save(Publisher entity)
         {
-            _context.Publishers.Add(entity);
-            _context.SaveChanges();
+            try
+            {
+                _context.Publishers.Add(entity);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error al guardar el editor", ex);
+            }
         }
 
         public override void Update(Publisher entity)
         {
-            _context.Publishers.Update(entity);
-            _context.SaveChanges();
+            try
+            {
+                _context.Publishers.Update(entity);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error al actualizar el editor", ex);
+            }
         }
 
         public override void Remove(Publisher entity)
         {
-            _context.Publishers.Remove(entity);
-            _context.SaveChanges();
+            try
+            {
+                _context.Publishers.Remove(entity);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error al eliminar el editor", ex);
+            }
         }
-
-     
     }
 }

@@ -1,14 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using library.Infrastructure.Context;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
-using library.Infrastructure.Interfaces;
 
 namespace library.Infrastructure.Core
 {
-    public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
+    public abstract class BaseRepository<TEntity> where TEntity : class
     {
-        protected readonly LibraryContext _context;
-        protected readonly DbSet<TEntity> _dbSet;
+        private readonly LibraryContext _context;
+        private readonly DbSet<TEntity> _dbSet;
 
         protected BaseRepository(LibraryContext context)
         {
@@ -26,12 +28,15 @@ namespace library.Infrastructure.Core
             return _dbSet.Where(predicate).ToList();
         }
 
-        public virtual List<TEntity> GetAll()
+        public virtual List<TEntity> GetEntities()
         {
             return _dbSet.ToList();
         }
 
-        public virtual TEntity GetById(int id) => _dbSet.Find(id);
+        public virtual TEntity GetEntity(int id)
+        {
+            return _dbSet.Find(id);
+        }
 
         public virtual void Remove(TEntity entity)
         {
