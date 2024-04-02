@@ -1,0 +1,12 @@
+C:\p2\library\library.domain\bin\Debug\net8.0\library.domain.deps.json
+C:\p2\library\library.domain\bin\Debug\net8.0\library.domain.dll
+C:\p2\library\library.domain\bin\Debug\net8.0\library.domain.pdb
+C:\p2\library\library.domain\obj\Debug\net8.0\library.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\p2\library\library.domain\obj\Debug\net8.0\library.domain.AssemblyInfoInputs.cache
+C:\p2\library\library.domain\obj\Debug\net8.0\library.domain.AssemblyInfo.cs
+C:\p2\library\library.domain\obj\Debug\net8.0\library.domain.csproj.CoreCompileInputs.cache
+C:\p2\library\library.domain\obj\Debug\net8.0\library.domain.sourcelink.json
+C:\p2\library\library.domain\obj\Debug\net8.0\library.domain.dll
+C:\p2\library\library.domain\obj\Debug\net8.0\refint\library.domain.dll
+C:\p2\library\library.domain\obj\Debug\net8.0\library.domain.pdb
+C:\p2\library\library.domain\obj\Debug\net8.0\ref\library.domain.dll
