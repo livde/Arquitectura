@@ -8,16 +8,10 @@ using System.Linq;
 
 namespace library.Infrastructure.Repositories
 {
-    public class PubInfoRepository : BaseRepository<PubInfo>, IPubInfoRepository
+    public class PubInfoRepository(LibraryContext context, ILogger<PubInfoRepository> logger) : BaseRepository<PubInfo>(context), IPubInfoRepository
     {
-        private readonly LibraryContext _context;
-        private readonly ILogger<PubInfoRepository> _logger;
-
-        public PubInfoRepository(LibraryContext context, ILogger<PubInfoRepository> logger) : base(context)
-        {
-            _context = context;
-            _logger = logger;
-        }
+        private readonly LibraryContext _context = context;
+        private readonly ILogger<PubInfoRepository> _logger = logger;
 
         public override void Save(PubInfo entity)
         {

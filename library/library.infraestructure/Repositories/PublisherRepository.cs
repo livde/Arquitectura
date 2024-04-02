@@ -4,6 +4,7 @@ using library.Infrastructure.Context;
 using library.Infrastructure.Core;
 using library.Infrastructure.Interfaces;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace library.Infrastructure.Repositories
@@ -18,8 +19,6 @@ namespace library.Infrastructure.Repositories
             _context = context;
             _logger = logger;
         }
-
-        // Métodos adicionales si es necesario
 
         public override void Save(Publisher entity)
         {
@@ -58,6 +57,29 @@ namespace library.Infrastructure.Repositories
             {
                 _logger.LogError("Error al eliminar el editor", ex);
             }
+        }
+
+        public IEnumerable<object> GetAll()
+        {
+            try
+            {
+                return _context.Publishers.ToList<object>();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error al obtener todos los editores", ex);
+                throw;
+            }
+        }
+
+        public object GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(object existingPublisher)
+        {
+            throw new NotImplementedException();
         }
     }
 }

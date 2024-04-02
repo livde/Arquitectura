@@ -1,43 +1,68 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+﻿using library.domain.Entities;
+using library.Infrastructure.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace library.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PublisherController : ControllerBase
+    public class PublisherController(IPublisherRepository publisherRepository) : ControllerBase
     {
-        // GET: api/<PublishersController>
+        private readonly IPublisherRepository _publisherRepository = publisherRepository;
+
+        // GET: api/Publisher
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            var publishers = _publisherRepository.GetAll();
+            return Ok(publishers);
         }
 
-        // GET api/<PublishersController>/5
+        // GET: api/Publisher/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            var publisher = _publisherRepository.GetById(id);
+            if (publisher == null)
+            {
+                return NotFound();
+            }
+            return Ok(publisher);
         }
 
-        // POST api/<PublishersController>
+        // POST: api/Publisher
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] Publisher publisher)
         {
+            _publisherRepository.Save(publisher);
+            return Ok();
         }
 
-        // PUT api/<PublishersController>/5
+        // PUT: api/Publisher/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] Publisher publisher)
         {
+            var existingPublisher = _publisherRepository.GetById(id);
+            if (existingPublisher == null)
+            {
+                return NotFound();
+            }
+            publisher.PubId = id;
+            _publisherRepository.Update(publisher);
+            return Ok();
         }
 
-        // DELETE api/<PublishersController>/5
+        // DELETE: api/Publisher/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            var existingPublisher = _publisherRepository.GetById(id);
+            if (existingPublisher == null)
+            {
+                return NotFound();
+            }
+            _publisherRepository.Remove(existingPublisher);
+            return Ok();
         }
     }
 }

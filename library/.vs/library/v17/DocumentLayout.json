@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\p2\\library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|c:\\p2\\library\\library.infraestructure\\repositories\\publisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|solutionrelative:library.infraestructure\\repositories\\publisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|c:\\p2\\library\\library.domain\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|solutionrelative:library.infraestructure\\core\\baserepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|c:\\p2\\library\\library.infraestructure\\repositories\\pubinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|solutionrelative:library.infraestructure\\repositories\\pubinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|c:\\p2\\library\\library.domain\\entities\\pubinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|solutionrelative:library.domain\\entities\\pubinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PublisherRepository.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.infraestructure\\Repositories\\PublisherRepository.cs",
+              "RelativeDocumentMoniker": "library.infraestructure\\Repositories\\PublisherRepository.cs",
+              "ToolTip": "C:\\p2\\library\\library.infraestructure\\Repositories\\PublisherRepository.cs",
+              "RelativeToolTip": "library.infraestructure\\Repositories\\PublisherRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T22:19:43.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,23 +53,21 @@
               "RelativeDocumentMoniker": "library.domain\\Entities\\Publisher.cs",
               "ToolTip": "C:\\p2\\library\\library.domain\\Entities\\Publisher.cs",
               "RelativeToolTip": "library.domain\\Entities\\Publisher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T04:33:33.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T22:19:29.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PublisherController.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.api\\Controllers\\PublisherController.cs",
-              "RelativeDocumentMoniker": "library.api\\Controllers\\PublisherController.cs",
-              "ToolTip": "C:\\p2\\library\\library.api\\Controllers\\PublisherController.cs",
-              "RelativeToolTip": "library.api\\Controllers\\PublisherController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "DocumentIndex": 3,
+              "Title": "PubInfo.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.domain\\Entities\\PubInfo.cs",
+              "RelativeDocumentMoniker": "library.domain\\Entities\\PubInfo.cs",
+              "ToolTip": "C:\\p2\\library\\library.domain\\Entities\\PubInfo.cs",
+              "RelativeToolTip": "library.domain\\Entities\\PubInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T04:32:02.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T22:17:40.8Z"
             },
             {
               "$type": "Document",
@@ -66,22 +77,9 @@
               "RelativeDocumentMoniker": "library.infraestructure\\Core\\BaseRepositoy.cs",
               "ToolTip": "C:\\p2\\library\\library.infraestructure\\Core\\BaseRepositoy.cs",
               "RelativeToolTip": "library.infraestructure\\Core\\BaseRepositoy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T04:00:41.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PubInfoRepository.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.infraestructure\\Repositories\\PubInfoRepository.cs",
-              "RelativeDocumentMoniker": "library.infraestructure\\Repositories\\PubInfoRepository.cs",
-              "ToolTip": "C:\\p2\\library\\library.infraestructure\\Repositories\\PubInfoRepository.cs",
-              "RelativeToolTip": "library.infraestructure\\Repositories\\PubInfoRepository.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAA8wD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:50:16.308Z"
+              "WhenOpened": "2024-04-02T22:02:31.096Z"
             }
           ]
         }
