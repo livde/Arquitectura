@@ -8,7 +8,7 @@ namespace library.domain.Entities
    {
 
         [Key]
-        public int PubId { get; set; }
+        public int pub_id { get; set; }
     public byte[]? Logo { get; set; }
     public string? PrInfo { get; set; }
 }

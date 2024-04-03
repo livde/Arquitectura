@@ -59,11 +59,11 @@ namespace library.Infrastructure.Repositories
             }
         }
 
-        public IEnumerable<object> GetAll()
+        public IEnumerable<Publisher> GetAll()
         {
             try
             {
-                return _context.Publishers.ToList<object>();
+                return _context.Publishers.ToList();
             }
             catch (Exception ex)
             {
@@ -72,14 +72,25 @@ namespace library.Infrastructure.Repositories
             }
         }
 
-        public object GetById(int id)
+        public Publisher GetById(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _context.Publishers.Find(id);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error al obtener el editor por id", ex);
+                throw;
+            }
         }
-
         public void Remove(object existingPublisher)
         {
             throw new NotImplementedException();
         }
+
+        
+
+
     }
 }

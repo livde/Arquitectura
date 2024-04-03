@@ -47,7 +47,7 @@ namespace library.api.Controllers
             {
                 return NotFound();
             }
-            publisher.PubId = id;
+            publisher.pub_id = id;
             _publisherRepository.Update(publisher);
             return Ok();
         }
