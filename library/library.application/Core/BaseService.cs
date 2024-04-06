@@ -1,56 +1,54 @@
-﻿namespace library.Application.Core
+﻿using library.application.Core; 
+using library.domain.Entities; 
+using library.Infrastructure.Context;
+using library.Infrastructure.Core;
+
+namespace library.application.Core
 {
     public abstract class BaseService<TEntity> where TEntity : class
     {
-        private readonly BaseRepository<TEntity> repository;
+        private readonly BaseRepository<TEntity> _repository;
 
         public BaseService(LibraryContext context)
         {
-            this.repository = new BaseRepository<TEntity>(context);
+            
         }
 
         public virtual ServiceResult<IEnumerable<TEntity>> GetAll()
         {
             var result = new ServiceResult<IEnumerable<TEntity>>();
-
-            result.Data = repository.GetEntities();
-
+            result.Data = _repository.GetAll();
             return result;
         }
 
-        public virtual ServiceResult<TEntity> GetById(dynamic id)
+        public virtual ServiceResult<TEntity> GetById(int id)
         {
             var result = new ServiceResult<TEntity>();
-
-            result.Data = repository.GetEntity(id);
-
+            result.Data = _repository.GetById(id);
             return result;
         }
 
-        public virtual ServiceResult<int> Remove(TEntity entity)
+        public virtual ServiceResult<bool> Remove(TEntity entity)
         {
-            var result = new ServiceResult<int>();
-
-            repository.Remove(entity);
-            result.Success = true; // Assuming removal is successful
+            var result = new ServiceResult<bool>();
+            _repository.Remove(entity);
+            result.Data = true; // Assuming successful removal indicates true
             return result;
         }
 
         public virtual ServiceResult<TEntity> Save(TEntity entity)
         {
             var result = new ServiceResult<TEntity>();
-
-            repository.Save(entity);
-            result.Data = entity; // Assuming the saved entity is returned
+            _repository.Save(entity);
+            result.Data = entity; // Assuming saved entity is returned
             return result;
         }
 
-        public virtual ServiceResult<int> Update(TEntity entity)
+        public virtual ServiceResult<TEntity> Update(TEntity entity)
         {
-            var result = new ServiceResult<int>();
-
-            repository.Update(entity);
-            result.Success = true; // Assuming update is successful
+            var result = new ServiceResult<TEntity>();
+            _repository.Update(entity);
+            result.Data = entity; // Assuming updated entity is returned
             return result;
         }
     }

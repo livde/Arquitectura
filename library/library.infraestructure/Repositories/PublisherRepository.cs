@@ -10,10 +10,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace library.Infrastructure.Repositories
 {
-    public class PublisherRepository(LibraryContext context, ILogger<PublisherRepository> logger) : BaseRepository<Publisher>(context), IPublisherRepository
+    public class PublisherRepository : BaseRepository<Publisher>, IPublisherRepository
     {
-        private readonly LibraryContext _context = context;
-        private readonly ILogger<PublisherRepository> _logger = logger;
+        private readonly LibraryContext _context;
+        private readonly ILogger<PublisherRepository> _logger;
+
+        public PublisherRepository(LibraryContext context, ILogger<PublisherRepository> logger) : base(context)
+        {
+            _context = context;
+            _logger = logger;
+        }
 
         public override void Save(Publisher entity)
         {
@@ -58,16 +64,15 @@ namespace library.Infrastructure.Repositories
         {
             try
             {
-                return [.. _context.Publishers
-                    .Select(p => new Publisher
-                    {
-                        pub_id = p.pub_id,
-                        pub_name = p.pub_name,
-                        city = p.city,
-                        state = p.state,
-                        country = p.country,
-                        CreationDate = p.CreationDate
-                    })];
+                return _context.Publishers.Select(p => new Publisher
+                {
+                    pub_id = p.pub_id,
+                    pub_name = p.pub_name,
+                    city = p.city,
+                    state = p.state,
+                    country = p.country,
+                    CreationDate = p.CreationDate
+                }).ToList();
             }
             catch (Exception ex)
             {
@@ -88,13 +93,51 @@ namespace library.Infrastructure.Repositories
                 throw;
             }
         }
+
+
         public void Remove(object existingPublisher)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Busca la entidad del editor a eliminar
+                var entityToRemove = _context.Publishers.FirstOrDefault(p => p.pub_id == ((Publisher)existingPublisher).pub_id);
+
+                // Si se encuentra la entidad, la elimina
+                if (entityToRemove != null)
+                {
+                    _context.Publishers.Remove(entityToRemove);
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error al eliminar el editor", ex);
+            }
         }
 
-        
 
 
+        public bool Exists(Func<object, bool> predicate)
+        {
+            return _context.Publishers.Any(predicate);
+        }
+
+        public IEnumerable<object> GetEntities()
+        {
+            return _context.Publishers.Select(p => new
+            {
+                pub_id = p.pub_id,
+                pub_name = p.pub_name,
+                city = p.city,
+                state = p.state,
+                country = p.country,
+                CreationDate = p.CreationDate
+            });
+        }
+
+        public object GetEntity(int id)
+        {
+            return _context.Publishers.Find(id);
+        }
     }
 }

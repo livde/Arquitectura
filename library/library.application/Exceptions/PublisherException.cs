@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace library.application.Exceptions
 {
-    internal class PublisherEceptions
+    public class PublisherException
     {
     }
 }

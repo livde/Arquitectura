@@ -203,6 +203,25 @@
           }
         }
       },
+      "Microsoft.Exchange.WebServices/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/40/Microsoft.Exchange.WebServices.dll": {
+            "related": ".Auth.pdb;.Auth.xml;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/40/Microsoft.Exchange.WebServices.dll": {
+            "related": ".Auth.pdb;.Auth.xml;.pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/8.0.3": {
         "type": "package",
         "build": {
@@ -1074,6 +1093,20 @@
           }
         }
       },
+      "library.application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Exchange.WebServices": "2.2.0",
+          "library.infraestructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/library.application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/library.application.dll": {}
+        }
+      },
       "library.domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1388,6 +1421,26 @@
         "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.8.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.Exchange.WebServices/2.2.0": {
+      "sha512": "NlkaTD0uWtg9VbiWq0VDWMBPzHFknH3tmstrxt0acrT09LBGqATTjRpsGOODz6tUdX7/dehBinxsf75U5Uw/+A==",
+      "type": "package",
+      "path": "microsoft.exchange.webservices/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "doc/License Terms.rtf",
+        "doc/README.htm",
+        "doc/Redist.txt",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.xml",
+        "lib/40/Microsoft.Exchange.WebServices.dll",
+        "lib/40/Microsoft.Exchange.WebServices.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.xml",
+        "microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+        "microsoft.exchange.webservices.nuspec"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/8.0.3": {
@@ -3022,6 +3075,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "library.application/1.0.0": {
+      "type": "project",
+      "path": "../library.application/library.application.csproj",
+      "msbuildProject": "../library.application/library.application.csproj"
+    },
     "library.domain/1.0.0": {
       "type": "project",
       "path": "../library.domain/library.domain.csproj",
@@ -3037,6 +3095,7 @@
     "net8.0": [
       "Microsoft.Extensions.ApiDescription.Server >= 8.0.3",
       "Swashbuckle.AspNetCore >= 6.5.0",
+      "library.application >= 1.0.0",
       "library.infraestructure >= 1.0.0"
     ]
   },
@@ -3067,6 +3126,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\p2\\library\\library.application\\library.application.csproj": {
+              "projectPath": "C:\\p2\\library\\library.application\\library.application.csproj"
+            },
             "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj": {
               "projectPath": "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj"
             }
@@ -3121,5 +3183,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Exchange.WebServices 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Exchange.WebServices",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

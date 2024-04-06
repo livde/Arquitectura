@@ -22,6 +22,16 @@ namespace library.Infrastructure.Core
             return [.. _dbSet.Where(predicate)];
         }
 
+        public IEnumerable<TEntity>? GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public TEntity? GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public virtual List<TEntity> GetEntities()
         {
             return [.. _dbSet];

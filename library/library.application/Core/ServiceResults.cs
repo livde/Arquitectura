@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace library.application.Core
 {
-    public class PublisherResult<TData>
+    public class ServiceResult<TData>
     {
         public bool Success { get; set; } = true;
         public string? Message { get; set; }
