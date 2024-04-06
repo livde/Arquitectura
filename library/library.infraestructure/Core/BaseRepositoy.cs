@@ -7,16 +7,10 @@ using System.Linq.Expressions;
 
 namespace library.Infrastructure.Core
 {
-    public abstract class BaseRepository<TEntity> where TEntity : class
+    public abstract class BaseRepository<TEntity>(LibraryContext context) where TEntity : class
     {
-        private readonly LibraryContext _context;
-        private readonly DbSet<TEntity> _dbSet;
-
-        protected BaseRepository(LibraryContext context)
-        {
-            _context = context ?? throw new ArgumentNullException(nameof(context));
-            _dbSet = context.Set<TEntity>();
-        }
+        private readonly LibraryContext _context = context ?? throw new ArgumentNullException(nameof(context));
+        private readonly DbSet<TEntity> _dbSet = context.Set<TEntity>();
 
         public virtual bool Exists(Expression<Func<TEntity, bool>> predicate)
         {
@@ -25,12 +19,12 @@ namespace library.Infrastructure.Core
 
         public virtual List<TEntity> FindAll(Expression<Func<TEntity, bool>> predicate)
         {
-            return _dbSet.Where(predicate).ToList();
+            return [.. _dbSet.Where(predicate)];
         }
 
         public virtual List<TEntity> GetEntities()
         {
-            return _dbSet.ToList();
+            return [.. _dbSet];
         }
 
         public virtual TEntity GetEntity(int id)

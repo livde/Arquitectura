@@ -6,19 +6,14 @@ using library.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace library.Infrastructure.Repositories
 {
-    public class PublisherRepository : BaseRepository<Publisher>, IPublisherRepository
+    public class PublisherRepository(LibraryContext context, ILogger<PublisherRepository> logger) : BaseRepository<Publisher>(context), IPublisherRepository
     {
-        private readonly LibraryContext _context;
-        private readonly ILogger<PublisherRepository> _logger;
-
-        public PublisherRepository(LibraryContext context, ILogger<PublisherRepository> logger) : base(context)
-        {
-            _context = context;
-            _logger = logger;
-        }
+        private readonly LibraryContext _context = context;
+        private readonly ILogger<PublisherRepository> _logger = logger;
 
         public override void Save(Publisher entity)
         {
@@ -63,7 +58,17 @@ namespace library.Infrastructure.Repositories
         {
             try
             {
-                return _context.Publishers.ToList();
+                return _context.Publishers
+                    .Select(p => new Publisher
+                    {
+                        pub_id = p.pub_id,
+                        pub_name = p.pub_name,
+                        city = p.city,
+                        state = p.state,
+                        country = p.country,
+                        CreationDate = p.CreationDate
+                    })
+                    .ToList();
             }
             catch (Exception ex)
             {

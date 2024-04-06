@@ -7,9 +7,10 @@ namespace library.domain.Entities
     {
         [Key]
         public int pub_id { get; set; }
-        public string pub_name { get; set; }
-        public string? City { get; set; }
-        public string? State { get; set; }
-        public  string Country { get; set; }
+        public string? pub_name { get; set; }
+        public string? city { get; set; }
+        public string? state { get; set; }
+        public  string? country { get; set; }
+        public DateTime CreationDate { get; set; }
     }
 }

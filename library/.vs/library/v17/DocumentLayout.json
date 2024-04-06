@@ -3,40 +3,8 @@
   "WorkspaceRootPath": "C:\\p2\\library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|c:\\p2\\library\\library.domain\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|solutionrelative:library.domain\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\models\\publisheraddmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\models\\publisheraddmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|c:\\p2\\library\\library.domain\\entities\\pubinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|solutionrelative:library.domain\\entities\\pubinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|c:\\p2\\library\\library.infraestructure\\repositories\\publisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|solutionrelative:library.infraestructure\\repositories\\publisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|c:\\p2\\library\\library.infraestructure\\interfaces\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|solutionrelative:library.infraestructure\\interfaces\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|c:\\p2\\library\\library.infraestructure\\core\\baserepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{224895FE-BE6A-4224-AC73-715F1DBC3E68}|library.infraestructure\\library.infraestructure.csproj|solutionrelative:library.infraestructure\\core\\baserepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\dtos\\publisher\\publisherdtobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\dtos\\publisher\\publisherdtobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,113 +22,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PublisherAddModel.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.api\\Models\\PublisherAddModel.cs",
-              "RelativeDocumentMoniker": "library.api\\Models\\PublisherAddModel.cs",
-              "ToolTip": "C:\\p2\\library\\library.api\\Models\\PublisherAddModel.cs",
-              "RelativeToolTip": "library.api\\Models\\PublisherAddModel.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAvwAUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T00:11:31.803Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PublisherController.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.api\\Controllers\\PublisherController.cs",
-              "RelativeDocumentMoniker": "library.api\\Controllers\\PublisherController.cs",
-              "ToolTip": "C:\\p2\\library\\library.api\\Controllers\\PublisherController.cs",
-              "RelativeToolTip": "library.api\\Controllers\\PublisherController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABCAAAA",
+              "Title": "PublisherDtoBase.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "RelativeDocumentMoniker": "library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "ToolTip": "C:\\p2\\library\\library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "RelativeToolTip": "library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T00:08:12.82Z",
+              "WhenOpened": "2024-04-06T01:01:35.829Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PublisherRepository.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.infraestructure\\Repositories\\PublisherRepository.cs",
-              "RelativeDocumentMoniker": "library.infraestructure\\Repositories\\PublisherRepository.cs",
-              "ToolTip": "C:\\p2\\library\\library.infraestructure\\Repositories\\PublisherRepository.cs",
-              "RelativeToolTip": "library.infraestructure\\Repositories\\PublisherRepository.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAcwDkAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T22:19:43.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\p2\\library\\library.api\\appsettings.json",
-              "RelativeDocumentMoniker": "library.api\\appsettings.json",
-              "ToolTip": "C:\\p2\\library\\library.api\\appsettings.json",
-              "RelativeToolTip": "library.api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T23:49:22.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPublisherRepository.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.infraestructure\\Interfaces\\IPublisherRepository.cs",
-              "RelativeDocumentMoniker": "library.infraestructure\\Interfaces\\IPublisherRepository.cs",
-              "ToolTip": "C:\\p2\\library\\library.infraestructure\\Interfaces\\IPublisherRepository.cs",
-              "RelativeToolTip": "library.infraestructure\\Interfaces\\IPublisherRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T23:35:22.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Publisher.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.domain\\Entities\\Publisher.cs",
-              "RelativeDocumentMoniker": "library.domain\\Entities\\Publisher.cs",
-              "ToolTip": "C:\\p2\\library\\library.domain\\Entities\\Publisher.cs",
-              "RelativeToolTip": "library.domain\\Entities\\Publisher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T22:19:29.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PubInfo.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.domain\\Entities\\PubInfo.cs",
-              "RelativeDocumentMoniker": "library.domain\\Entities\\PubInfo.cs",
-              "ToolTip": "C:\\p2\\library\\library.domain\\Entities\\PubInfo.cs",
-              "RelativeToolTip": "library.domain\\Entities\\PubInfo.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADgvwoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T22:17:40.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\p2\\library\\library.api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "library.api\\appsettings.Development.json",
-              "ToolTip": "C:\\p2\\library\\library.api\\appsettings.Development.json",
-              "RelativeToolTip": "library.api\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T23:54:07.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseRepositoy.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.infraestructure\\Core\\BaseRepositoy.cs",
-              "RelativeDocumentMoniker": "library.infraestructure\\Core\\BaseRepositoy.cs",
-              "ToolTip": "C:\\p2\\library\\library.infraestructure\\Core\\BaseRepositoy.cs",
-              "RelativeToolTip": "library.infraestructure\\Core\\BaseRepositoy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T22:02:31.096Z"
             }
           ]
         }
