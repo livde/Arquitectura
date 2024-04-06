@@ -47,7 +47,6 @@ namespace library.Application.Service
                 result.Message = "Error obteniendo los editores";
                 _logger.LogError(result.Message + ex.Message);
             }
-
             return result;
         }
 
