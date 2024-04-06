@@ -58,7 +58,7 @@ namespace library.Infrastructure.Repositories
         {
             try
             {
-                return _context.Publishers
+                return [.. _context.Publishers
                     .Select(p => new Publisher
                     {
                         pub_id = p.pub_id,
@@ -67,8 +67,7 @@ namespace library.Infrastructure.Repositories
                         state = p.state,
                         country = p.country,
                         CreationDate = p.CreationDate
-                    })
-                    .ToList();
+                    })];
             }
             catch (Exception ex)
             {

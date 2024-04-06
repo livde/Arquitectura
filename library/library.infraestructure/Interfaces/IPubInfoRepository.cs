@@ -1,9 +1,6 @@
-﻿using library.domain.Entities;
-
-namespace library.Infrastructure.Interfaces
+﻿namespace library.infraestructure.Interfaces
 {
-    public interface IPubInfoRepository : IBaseRepository<PubInfo>
+    internal interface IPubInfoRepository
     {
-        
     }
 }

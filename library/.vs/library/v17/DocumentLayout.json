@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "C:\\p2\\library\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\dtos\\dtobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\dtos\\dtobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\core\\serviceresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\core\\serviceresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\core\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\core\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\contract\\ipublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\contract\\ipublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\contract\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\contract\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\service\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\service\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\models\\publisher\\publishergetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\models\\publisher\\publishergetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\dtos\\publisher\\publisherudpatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\dtos\\publisher\\publisherudpatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\dtos\\publisher\\publisherremovedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\dtos\\publisher\\publisherremovedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\dtos\\publisher\\publisherdtobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\dtos\\publisher\\publisherdtobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\dtos\\publisher\\publisheradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\dtos\\publisher\\publisheradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\dtos\\publisher\\publisherdtobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\dtos\\publisher\\publisherdtobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\dtos\\publisher\\publisheradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\dtos\\publisher\\publisheradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\exceptions\\publishereceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\exceptions\\publishereceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|c:\\p2\\library\\library.api\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2DEF0A-65A6-4435-A13F-7120E004771C}|library.api\\library.api.csproj|solutionrelative:library.api\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|c:\\p2\\library\\library.domain\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F159F05-8844-46CA-A339-E623835C5FA4}|library.domain\\library.domain.csproj|solutionrelative:library.domain\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +74,218 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PublisherGetModel.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Models\\Publisher\\PublisherGetModel.cs",
+              "RelativeDocumentMoniker": "library.application\\Models\\Publisher\\PublisherGetModel.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Models\\Publisher\\PublisherGetModel.cs",
+              "RelativeToolTip": "library.application\\Models\\Publisher\\PublisherGetModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:09:54.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublisherService.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Service\\PublisherService.cs",
+              "RelativeDocumentMoniker": "library.application\\Service\\PublisherService.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Service\\PublisherService.cs",
+              "RelativeToolTip": "library.application\\Service\\PublisherService.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAowLIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:39:20.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Contract\\IBaseService.cs",
+              "RelativeDocumentMoniker": "library.application\\Contract\\IBaseService.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Contract\\IBaseService.cs",
+              "RelativeToolTip": "library.application\\Contract\\IBaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:57:00.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPublisherService.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Contract\\IPublisherService.cs",
+              "RelativeDocumentMoniker": "library.application\\Contract\\IPublisherService.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Contract\\IPublisherService.cs",
+              "RelativeToolTip": "library.application\\Contract\\IPublisherService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:10:26.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Core\\BaseService.cs",
+              "RelativeDocumentMoniker": "library.application\\Core\\BaseService.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Core\\BaseService.cs",
+              "RelativeToolTip": "library.application\\Core\\BaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:59:13.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceResults.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Core\\ServiceResults.cs",
+              "RelativeDocumentMoniker": "library.application\\Core\\ServiceResults.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Core\\ServiceResults.cs",
+              "RelativeToolTip": "library.application\\Core\\ServiceResults.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:42:18.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DtoBase.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Dtos\\DtoBase.cs",
+              "RelativeDocumentMoniker": "library.application\\Dtos\\DtoBase.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Dtos\\DtoBase.cs",
+              "RelativeToolTip": "library.application\\Dtos\\DtoBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:35:39.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PublisherUdpateDto.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Dtos\\Publisher\\PublisherUdpateDto.cs",
+              "RelativeDocumentMoniker": "library.application\\Dtos\\Publisher\\PublisherUdpateDto.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Dtos\\Publisher\\PublisherUdpateDto.cs",
+              "RelativeToolTip": "library.application\\Dtos\\Publisher\\PublisherUdpateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:36:55.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PublisherRemoveDto.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Dtos\\Publisher\\PublisherRemoveDto.cs",
+              "RelativeDocumentMoniker": "library.application\\Dtos\\Publisher\\PublisherRemoveDto.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Dtos\\Publisher\\PublisherRemoveDto.cs",
+              "RelativeToolTip": "library.application\\Dtos\\Publisher\\PublisherRemoveDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:36:02.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PublisherDtoBase.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "RelativeDocumentMoniker": "library.application\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "RelativeToolTip": "library.application\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:36:35.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PublisherAddDto.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Dtos\\Publisher\\PublisherAddDto.cs",
+              "RelativeDocumentMoniker": "library.application\\Dtos\\Publisher\\PublisherAddDto.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Dtos\\Publisher\\PublisherAddDto.cs",
+              "RelativeToolTip": "library.application\\Dtos\\Publisher\\PublisherAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:22:54.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PublisherDtoBase.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "RelativeDocumentMoniker": "library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "ToolTip": "C:\\p2\\library\\library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "RelativeToolTip": "library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T01:01:35.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PublisherAddDto.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.api\\Dtos\\Publisher\\PublisherAddDto.cs",
+              "RelativeDocumentMoniker": "library.api\\Dtos\\Publisher\\PublisherAddDto.cs",
+              "ToolTip": "C:\\p2\\library\\library.api\\Dtos\\Publisher\\PublisherAddDto.cs",
+              "RelativeToolTip": "library.api\\Dtos\\Publisher\\PublisherAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T07:06:50.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PublisherEceptions.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Exceptions\\PublisherEceptions.cs",
+              "RelativeDocumentMoniker": "library.application\\Exceptions\\PublisherEceptions.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Exceptions\\PublisherEceptions.cs",
+              "RelativeToolTip": "library.application\\Exceptions\\PublisherEceptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:47:16.368Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PublisherDtoBase.cs",
-              "DocumentMoniker": "C:\\p2\\library\\library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
-              "RelativeDocumentMoniker": "library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
-              "ToolTip": "C:\\p2\\library\\library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
-              "RelativeToolTip": "library.api\\Dtos\\Publisher\\PublisherDtoBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "DocumentIndex": 15,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.domain\\Entities\\Publisher.cs",
+              "RelativeDocumentMoniker": "library.domain\\Entities\\Publisher.cs",
+              "ToolTip": "C:\\p2\\library\\library.domain\\Entities\\Publisher.cs",
+              "RelativeToolTip": "library.domain\\Entities\\Publisher.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADgvwoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T01:01:35.829Z",
+              "WhenOpened": "2024-04-06T05:26:34.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PublisherController.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.api\\Controllers\\PublisherController.cs",
+              "RelativeDocumentMoniker": "library.api\\Controllers\\PublisherController.cs",
+              "ToolTip": "C:\\p2\\library\\library.api\\Controllers\\PublisherController.cs",
+              "RelativeToolTip": "library.api\\Controllers\\PublisherController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:22:03.534Z",
               "EditorCaption": ""
             }
           ]

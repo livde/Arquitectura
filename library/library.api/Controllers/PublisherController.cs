@@ -64,7 +64,8 @@ namespace library.api.Controllers
                 pub_name = publisherDto.Name,
                 city = publisherDto.City,
                 state = publisherDto.State,
-                country = publisherDto.Country
+                country = publisherDto.Country,
+                 CreationDate = DateTime.UtcNow
             };
 
             _publisherRepository.Save(publisher);

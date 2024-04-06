@@ -3,12 +3,8 @@ using library.domain.Entities;
 
 namespace library.Infrastructure.Context
 {
-    public class LibraryContext : DbContext
+    public class LibraryContext(DbContextOptions<LibraryContext> options) : DbContext(options)
     {
-        public LibraryContext(DbContextOptions<LibraryContext> options) : base(options)
-        {
-
-        }
 
         #region DbSets
         public DbSet<Publisher> Publishers { get; set; }

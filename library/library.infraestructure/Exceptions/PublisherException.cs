@@ -8,7 +8,8 @@ namespace shopping.Infrastructure.Exceptions
         {
             GuardarLog(message);
         }
-        void GuardarLog(string message)
+
+        static void GuardarLog(string message)
         {
             // X logica para almacenar el error //
         }
