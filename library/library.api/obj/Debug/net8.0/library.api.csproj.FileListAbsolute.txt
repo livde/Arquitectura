@@ -73,3 +73,7 @@ C:\p2\library\library.api\bin\Debug\net8.0\library.domain.dll
 C:\p2\library\library.api\bin\Debug\net8.0\library.infraestructure.dll
 C:\p2\library\library.api\bin\Debug\net8.0\library.infraestructure.pdb
 C:\p2\library\library.api\bin\Debug\net8.0\library.domain.pdb
+C:\p2\library\library.api\bin\Debug\net8.0\Microsoft.Exchange.WebServices.Auth.dll
+C:\p2\library\library.api\bin\Debug\net8.0\Microsoft.Exchange.WebServices.dll
+C:\p2\library\library.api\bin\Debug\net8.0\library.application.dll
+C:\p2\library\library.api\bin\Debug\net8.0\library.application.pdb

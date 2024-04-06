@@ -4,59 +4,49 @@ using Microsoft.AspNetCore.Mvc;
 using library.api.Dtos.Publisher;
 using library.api.Models;
 using library.Infrastructure.Dtos;
+using System;
+using System.Linq;
 
 namespace library.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PublisherController(IPublisherRepository publisherRepository) : ControllerBase
+    public class PublisherController : ControllerBase
     {
-        private readonly IPublisherRepository _publisherRepository = publisherRepository;
+        private readonly IPublisherRepository _publisherRepository;
 
-        // GET: api/Publisher
-        [HttpGet]
-        public IActionResult Get()
+        public PublisherController(IPublisherRepository publisherRepository)
         {
-            var publishers = _publisherRepository.GetAll();
-
-            var publisherGetModels = publishers.Select(p => new Models.PublisherGetModel
-            {
-                PublisherId = p.pub_id,
-                Name = p.pub_name,
-                city = p.city,
-                state = p.state,
-                country = p.country,
-                CreationDate = p.CreationDate
-            });
-
-            return Ok(publisherGetModels);
+            _publisherRepository = publisherRepository;
         }
 
-        // GET: api/Publisher/5
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        [HttpGet("GetPublishers")]
+        public IActionResult Get()
         {
-            var publisher = _publisherRepository.GetById(id);
-            if (publisher == null)
+            var result = _publisherRepository.GetAll();
+
+            if (result == null)
             {
                 return NotFound();
             }
 
-            var publisherGetModel = new PublisherGetModel
-            {
-                PublisherId = publisher.pub_id,
-                Name = publisher.pub_name,
-                city = publisher.city,
-                state = publisher.state,
-                country = publisher.country,
-                CreationDate = publisher.CreationDate
-            };
-
-            return Ok(publisherGetModel);
+            return Ok(result);
         }
 
-        // POST: api/Publisher
-        [HttpPost]
+        [HttpGet("GetPublisherById/{id}")]
+        public IActionResult Get(int id)
+        {
+            var result = _publisherRepository.GetById(id);
+
+            if (result == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(result);
+        }
+
+        [HttpPost("AddPublisher")]
         public IActionResult Post([FromBody] PublisherDtoBase publisherDto)
         {
             var publisher = new Publisher
@@ -65,18 +55,19 @@ namespace library.api.Controllers
                 city = publisherDto.City,
                 state = publisherDto.State,
                 country = publisherDto.Country,
-                 CreationDate = DateTime.UtcNow
+                CreationDate = DateTime.UtcNow
             };
 
             _publisherRepository.Save(publisher);
+
             return Ok();
         }
 
-        // PUT: api/Publisher/5
-        [HttpPut("{id}")]
+        [HttpPut("UpdatePublisher/{id}")]
         public IActionResult Put(int id, [FromBody] PublisherUpdateDto publisherDto)
         {
             var existingPublisher = _publisherRepository.GetById(id);
+
             if (existingPublisher == null)
             {
                 return NotFound();
@@ -88,19 +79,22 @@ namespace library.api.Controllers
             existingPublisher.country = publisherDto.Country;
 
             _publisherRepository.Update(existingPublisher);
+
             return Ok();
         }
 
-        // DELETE: api/Publisher/5
-        [HttpDelete("{id}")]
+        [HttpDelete("DeletePublisher/{id}")]
         public IActionResult Delete(int id)
         {
             var existingPublisher = _publisherRepository.GetById(id);
+
             if (existingPublisher == null)
             {
                 return NotFound();
             }
+
             _publisherRepository.Remove(existingPublisher);
+
             return Ok();
         }
     }

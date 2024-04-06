@@ -20,6 +20,7 @@ builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
 
 //App Services
 
+builder.Services.AddTransient<IPublisherRepository, PublisherRepository>();
 
 
 
