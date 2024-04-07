@@ -13,6 +13,7 @@ builder.Services.AddDbContext<LibraryContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LibraryContext")));
 
 
+
 //Repositories
 builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
 

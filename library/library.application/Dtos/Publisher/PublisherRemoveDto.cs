@@ -5,6 +5,7 @@ namespace Library.Application.Dtos.Publisher
     public class PublisherRemoveDto:DtoBase
     {
         
-        public int Id { get; set; }
+      
+        public int PublisherId { get; set; }
     }
 }

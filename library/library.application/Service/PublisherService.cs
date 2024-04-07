@@ -84,7 +84,7 @@ namespace library.application.Services
             var result = new ServiceResult<PublisherGetModel>();
             try
             {
-                var existingPublisher = _publisherRepository.GetById(publisherUpdateDto.Id);
+                var existingPublisher = _publisherRepository.GetById(publisherUpdateDto.PublisherId);
                 if (existingPublisher != null)
                 {
                     // Update entity properties
@@ -114,7 +114,7 @@ namespace library.application.Services
             var result = new ServiceResult<bool>();
             try
             {
-                var publisher = _publisherRepository.GetById(publisherRemoveDto.Id);
+                var publisher = _publisherRepository.GetById(publisherRemoveDto.PublisherId);
                 if (publisher != null)
                 {
                     _publisherRepository.Remove(publisher);

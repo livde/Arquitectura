@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e4cxRmGVQ9i/khbKE6rgppUnXJdGMtXRWrVBCyi9vF2WsCy7Ai1Vt9Cb+4zgm9sjY6kf70Bwy85jNSy86Q486g==",
+  "dgSpecHash": "5F3DZRxOcD0APayaTOY3i9l96czj5noULFv/kV+DWVs8DxFLYOE2C0m5U0CHPz6yOk5LEpsHiYc7lMhNjTNuPw==",
   "success": true,
   "projectFilePath": "C:\\p2\\library\\library.application\\library.application.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,6 @@
     "C:\\Users\\o_o_l\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.3\\microsoft.entityframeworkcore.analyzers.8.0.3.nupkg.sha512",
     "C:\\Users\\o_o_l\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.3\\microsoft.entityframeworkcore.relational.8.0.3.nupkg.sha512",
     "C:\\Users\\o_o_l\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.3\\microsoft.entityframeworkcore.sqlserver.8.0.3.nupkg.sha512",
-    "C:\\Users\\o_o_l\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\microsoft.exchange.webservices.2.2.0.nupkg.sha512",
     "C:\\Users\\o_o_l\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\o_o_l\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\o_o_l\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -61,16 +60,5 @@
     "C:\\Users\\o_o_l\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\o_o_l\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Exchange.WebServices 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Exchange.WebServices",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
