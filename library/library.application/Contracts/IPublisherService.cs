@@ -5,5 +5,7 @@ namespace library.application.Contracts
 {
     public interface IPublisherService : IBaseService<PublisherAddDto, PublisherUpdateDto, PublisherRemoveDto, PublisherGetModel>
     {
+        string? GetPublisherById(int id);
+        string? GetPublisherById(object id);
     }
 }

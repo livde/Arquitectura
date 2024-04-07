@@ -5,20 +5,21 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Library.Application.Dtos.Publisher;
-
+using System.Threading.Tasks;
 
 namespace Library.WebApp.Controllers
 {
     public class PublisherController(IPublisherService publisherService) : Controller
     {
         private readonly IPublisherService _publisherService = publisherService;
+        private int id;
 
         public IActionResult Index()
         {
             var result = _publisherService.GetAll();
             if (result.Success)
             {
-                return View(result.Data);
+                return View(result.Data); // Asegúrate de que result.Data sea una lista de PublisherGetModel
             }
             else
             {
@@ -26,6 +27,7 @@ namespace Library.WebApp.Controllers
                 return View(new List<PublisherGetModel>());
             }
         }
+
 
         public IActionResult Details(int id)
         {
@@ -73,14 +75,18 @@ namespace Library.WebApp.Controllers
             var result = _publisherService.Get(id);
             if (result.Success)
             {
-                return View(result.Data);
+                PublisherGetModel? data = result.Data;
+                var publisherList = new List<PublisherGetModel> { data }; // Crear una lista con un solo elemento
+                return View(publisherList);
             }
             else
             {
                 ViewBag.Message = result.Message;
-                return View();
+                return View(new List<PublisherGetModel>()); // Devolver una lista vacía si no se encontró el objeto
             }
         }
+
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]

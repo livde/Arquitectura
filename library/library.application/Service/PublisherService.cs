@@ -177,6 +177,16 @@ namespace library.application.Services
                 CreationDate = DateTime.Now // Assuming creation date is set on creation
             };
         }
+
+        public string? GetPublisherById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string? GetPublisherById(object id)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
