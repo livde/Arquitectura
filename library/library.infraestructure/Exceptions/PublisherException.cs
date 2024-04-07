@@ -1,17 +1,21 @@
 ﻿
 
+using System;
+
 namespace shopping.Infrastructure.Exceptions
 {
-    public class CategoryException : Exception
+    public class PublisherException : Exception
     {
-        public CategoryException(string message) : base(message)
+        public PublisherException(string message) : base(message)
         {
             GuardarLog(message);
         }
 
         static void GuardarLog(string message)
         {
-            // X logica para almacenar el error //
+           
+            Console.WriteLine($"Error: {message}");
+            // Aqui lo dejare asi hasta ahora. el que me compre el programa que me indique si le envio cartas.
         }
     }
 }

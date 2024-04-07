@@ -9,4 +9,14 @@ namespace library.application.Exceptions
     public class PublisherException
     {
     }
+    public class DataAccessException : Exception
+    {
+        public DataAccessException(string message) : base(message) { }
+    }
+
+    public class ValidationException : Exception
+    {
+        public ValidationException(string message) : base(message) { }
+    }
+
 }

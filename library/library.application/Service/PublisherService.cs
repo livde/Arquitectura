@@ -132,7 +132,10 @@ namespace library.application.Services
                 result.Message = ex.Message;
             }
             return result;
+
         }
+
+
 
         // Helper method to map entities to DTOs
         private IEnumerable<PublisherGetModel> MapEntitiesToDtos(IEnumerable<Publisher> publishers)
@@ -180,4 +183,5 @@ namespace library.application.Services
             };
         }
     }
+
 }
