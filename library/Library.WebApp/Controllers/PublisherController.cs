@@ -9,14 +9,9 @@ using Library.Application.Dtos.Publisher;
 
 namespace Library.WebApp.Controllers
 {
-    public class PublisherController : Controller
+    public class PublisherController(IPublisherService publisherService) : Controller
     {
-        private readonly IPublisherService _publisherService;
-
-        public PublisherController(IPublisherService publisherService)
-        {
-            _publisherService = publisherService;
-        }
+        private readonly IPublisherService _publisherService = publisherService;
 
         public IActionResult Index()
         {

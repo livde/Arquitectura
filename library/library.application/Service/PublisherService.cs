@@ -9,14 +9,9 @@ using System.Collections.Generic;
 
 namespace library.application.Services
 {
-    public class PublisherService : IPublisherService
+    public class PublisherService(IPublisherRepository publisherRepository) : IPublisherService
     {
-        private readonly IPublisherRepository _publisherRepository;
-
-        public PublisherService(IPublisherRepository publisherRepository)
-        {
-            _publisherRepository = publisherRepository;
-        }
+        private readonly IPublisherRepository _publisherRepository = publisherRepository;
 
         public ServiceResult<IEnumerable<PublisherGetModel>> GetAll()
         {
@@ -138,7 +133,7 @@ namespace library.application.Services
 
 
         // Helper method to map entities to DTOs
-        private IEnumerable<PublisherGetModel> MapEntitiesToDtos(IEnumerable<Publisher> publishers)
+        private static IEnumerable<PublisherGetModel> MapEntitiesToDtos(IEnumerable<Publisher> publishers)
         {
             var publisherDtos = new List<PublisherGetModel>();
             foreach (var publisher in publishers)
@@ -157,7 +152,7 @@ namespace library.application.Services
         }
 
         // Helper method to map entity to DTO
-        private PublisherGetModel MapEntityToDto(Publisher publisher)
+        private static PublisherGetModel MapEntityToDto(Publisher publisher)
         {
             return new PublisherGetModel
             {
@@ -171,7 +166,7 @@ namespace library.application.Services
         }
 
         // Helper method to map DTO to entity
-        private Publisher MapDtoToEntity(PublisherAddDto publisherAddDto)
+        private static Publisher MapDtoToEntity(PublisherAddDto publisherAddDto)
         {
             return new Publisher
             {

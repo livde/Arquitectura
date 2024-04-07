@@ -1,4 +1,8 @@
+using library.application.Contracts;
+using library.application.Services;
 using library.Infrastructure.Context;
+using library.Infrastructure.Interfaces;
+using library.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +15,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<LibraryContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LibraryContext")));
 
+builder.Services.AddTransient<IPublisherService, PublisherService>();
 
+builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
 //
 builder.Services.AddControllersWithViews();
 
