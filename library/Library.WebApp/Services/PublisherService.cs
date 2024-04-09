@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System.Text;
 using Library.Application.Dtos.Publisher;
-using library.application.Contracts;
 using library.application.Core;
 using library.application.Models.Publisher;
+using Library.Application.Contracts;
 
 namespace Library.Web.Services
 {
@@ -117,39 +117,6 @@ namespace Library.Web.Services
             return result;
         }
 
-        public string? GetPublisherById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public string? GetPublisherById(object id)
-        {
-            throw new NotImplementedException();
-        }
-
-        ServiceResult<IEnumerable<PublisherGetModel>> IBaseService<PublisherAddDto, PublisherUpdateDto, PublisherRemoveDto, PublisherGetModel>.GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        ServiceResult<PublisherGetModel> IBaseService<PublisherAddDto, PublisherUpdateDto, PublisherRemoveDto, PublisherGetModel>.Get(int publisherId)
-        {
-            throw new NotImplementedException();
-        }
-
-        ServiceResult<PublisherGetModel> IBaseService<PublisherAddDto, PublisherUpdateDto, PublisherRemoveDto, PublisherGetModel>.Save(PublisherAddDto publisherAddDto)
-        {
-            throw new NotImplementedException();
-        }
-
-        ServiceResult<PublisherGetModel> IBaseService<PublisherAddDto, PublisherUpdateDto, PublisherRemoveDto, PublisherGetModel>.Update(PublisherUpdateDto publisherUpdateDto)
-        {
-            throw new NotImplementedException();
-        }
-
-        ServiceResult<bool> IBaseService<PublisherAddDto, PublisherUpdateDto, PublisherRemoveDto, PublisherGetModel>.Remove(PublisherRemoveDto publisherRemoveDto)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

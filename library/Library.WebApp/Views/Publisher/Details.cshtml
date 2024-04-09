@@ -47,6 +47,17 @@
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.PublisherId  }) |
-    <a asp-action="Index">Back to List</a>
+    @if (Model != null)
+    {
+        <div>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.PublisherId }) |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    }
+    else
+    {
+        <p>Model is null.</p>
+    }
+
+
 </div>
