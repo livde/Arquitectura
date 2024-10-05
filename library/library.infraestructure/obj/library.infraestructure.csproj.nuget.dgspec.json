@@ -4,14 +4,14 @@
     "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj": {
+    "C:\\p2\\library\\library.domain\\library.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj",
-        "projectName": "library.infraestructure",
-        "projectPath": "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj",
+        "projectUniqueName": "C:\\p2\\library\\library.domain\\library.domain.csproj",
+        "projectName": "library.domain",
+        "projectPath": "C:\\p2\\library\\library.domain\\library.domain.csproj",
         "packagesPath": "C:\\Users\\o_o_l\\.nuget\\packages\\",
-        "outputPath": "C:\\p2\\library\\library.infraestructure\\obj\\",
+        "outputPath": "C:\\p2\\library\\library.domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\o_o_l\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,80 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj",
+        "projectName": "library.infraestructure",
+        "projectPath": "C:\\p2\\library\\library.infraestructure\\library.infraestructure.csproj",
+        "packagesPath": "C:\\Users\\o_o_l\\.nuget\\packages\\",
+        "outputPath": "C:\\p2\\library\\library.infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\o_o_l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\p2\\library\\library.domain\\library.domain.csproj": {
+                "projectPath": "C:\\p2\\library\\library.domain\\library.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

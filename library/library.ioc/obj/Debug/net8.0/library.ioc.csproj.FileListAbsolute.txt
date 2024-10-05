@@ -1,0 +1,12 @@
+C:\p2\library\library.ioc\bin\Debug\net8.0\library.ioc.deps.json
+C:\p2\library\library.ioc\bin\Debug\net8.0\library.ioc.dll
+C:\p2\library\library.ioc\bin\Debug\net8.0\library.ioc.pdb
+C:\p2\library\library.ioc\obj\Debug\net8.0\library.ioc.GeneratedMSBuildEditorConfig.editorconfig
+C:\p2\library\library.ioc\obj\Debug\net8.0\library.ioc.AssemblyInfoInputs.cache
+C:\p2\library\library.ioc\obj\Debug\net8.0\library.ioc.AssemblyInfo.cs
+C:\p2\library\library.ioc\obj\Debug\net8.0\library.ioc.csproj.CoreCompileInputs.cache
+C:\p2\library\library.ioc\obj\Debug\net8.0\library.ioc.sourcelink.json
+C:\p2\library\library.ioc\obj\Debug\net8.0\library.ioc.dll
+C:\p2\library\library.ioc\obj\Debug\net8.0\refint\library.ioc.dll
+C:\p2\library\library.ioc\obj\Debug\net8.0\library.ioc.pdb
+C:\p2\library\library.ioc\obj\Debug\net8.0\ref\library.ioc.dll

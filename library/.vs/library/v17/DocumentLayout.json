@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\p2\\library\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C24C88-EA30-4655-8359-D884F6102581}|Library.WebApp\\Library.Web.csproj|c:\\p2\\library\\library.webapp\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C24C88-EA30-4655-8359-D884F6102581}|Library.WebApp\\Library.Web.csproj|solutionrelative:library.webapp\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|c:\\p2\\library\\library.application\\contracts\\ipublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C6AE9-DC48-480C-B718-2A34F1883888}|library.application\\library.application.csproj|solutionrelative:library.application\\contracts\\ipublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C24C88-EA30-4655-8359-D884F6102581}|Library.WebApp\\Library.Web.csproj|c:\\p2\\library\\library.webapp\\views\\publisher\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9C24C88-EA30-4655-8359-D884F6102581}|Library.WebApp\\Library.Web.csproj|solutionrelative:library.webapp\\views\\publisher\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\p2\\library\\Library.WebApp\\Views\\Publisher\\Details.cshtml",
+              "RelativeDocumentMoniker": "Library.WebApp\\Views\\Publisher\\Details.cshtml",
+              "ToolTip": "C:\\p2\\library\\Library.WebApp\\Views\\Publisher\\Details.cshtml",
+              "RelativeToolTip": "Library.WebApp\\Views\\Publisher\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T00:37:48.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPublisherService.cs",
+              "DocumentMoniker": "C:\\p2\\library\\library.application\\Contracts\\IPublisherService.cs",
+              "RelativeDocumentMoniker": "library.application\\Contracts\\IPublisherService.cs",
+              "ToolTip": "C:\\p2\\library\\library.application\\Contracts\\IPublisherService.cs",
+              "RelativeToolTip": "library.application\\Contracts\\IPublisherService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T00:28:55.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PublisherController.cs",
+              "DocumentMoniker": "C:\\p2\\library\\Library.WebApp\\Controllers\\PublisherController.cs",
+              "RelativeDocumentMoniker": "Library.WebApp\\Controllers\\PublisherController.cs",
+              "ToolTip": "C:\\p2\\library\\Library.WebApp\\Controllers\\PublisherController.cs",
+              "RelativeToolTip": "Library.WebApp\\Controllers\\PublisherController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T23:49:12.193Z",
+              "EditorCaption": ""
             }
           ]
         }

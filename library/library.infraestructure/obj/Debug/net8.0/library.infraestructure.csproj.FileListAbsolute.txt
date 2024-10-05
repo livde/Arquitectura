@@ -1,0 +1,16 @@
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library.infraestructure.csproj.AssemblyReference.cache
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library.infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library.infraestructure.AssemblyInfoInputs.cache
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library.infraestructure.AssemblyInfo.cs
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library.infraestructure.csproj.CoreCompileInputs.cache
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library.infraestructure.sourcelink.json
+C:\p2\library\library.infraestructure\bin\Debug\net8.0\library.infraestructure.deps.json
+C:\p2\library\library.infraestructure\bin\Debug\net8.0\library.infraestructure.dll
+C:\p2\library\library.infraestructure\bin\Debug\net8.0\library.infraestructure.pdb
+C:\p2\library\library.infraestructure\bin\Debug\net8.0\library.domain.dll
+C:\p2\library\library.infraestructure\bin\Debug\net8.0\library.domain.pdb
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library..D39DA359.Up2Date
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library.infraestructure.dll
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\refint\library.infraestructure.dll
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\library.infraestructure.pdb
+C:\p2\library\library.infraestructure\obj\Debug\net8.0\ref\library.infraestructure.dll

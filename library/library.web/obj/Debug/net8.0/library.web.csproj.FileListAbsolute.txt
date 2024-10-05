@@ -13,6 +13,7 @@ C:\p2\library\library.web\obj\Debug\net8.0\library.web.csproj.CoreCompileInputs.
 C:\p2\library\library.web\obj\Debug\net8.0\library.web.MvcApplicationPartsAssemblyInfo.cache
 C:\p2\library\library.web\obj\Debug\net8.0\library.web.RazorAssemblyInfo.cache
 C:\p2\library\library.web\obj\Debug\net8.0\library.web.RazorAssemblyInfo.cs
+C:\p2\library\library.web\obj\Debug\net8.0\library.web.sourcelink.json
 C:\p2\library\library.web\obj\Debug\net8.0\staticwebassets.build.json
 C:\p2\library\library.web\obj\Debug\net8.0\staticwebassets.development.json
 C:\p2\library\library.web\obj\Debug\net8.0\staticwebassets\msbuild.library.web.Microsoft.AspNetCore.StaticWebAssets.props
